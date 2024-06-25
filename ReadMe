@@ -1,0 +1,5 @@
+ Execution Steps
+ 1) Clone the github repo
+ 2) Deploy the EC Infrastructure with Terraform
+ 3) Log on to AWS EC2 to verify the Jenkins Server has been spinned off. Get the public IP and put it in the inventory.ini file
+ 4) Run the ansible playbook "ansible-playbook jenkins_deployment.yml"
